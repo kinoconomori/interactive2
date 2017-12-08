@@ -1,0 +1,98 @@
+
+body{
+
+	font-family: 'Bree Serif', serif;
+	font-size:20pt;
+	color: #191919;
+	background-color:#fff7cc;
+	margin:0px;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+.info{
+	text-align:center;
+	width:33%;
+	height:50%;
+	float:left;
+	position:relative;
+}
+
+
+
+
+.one{
+	background-color:#c7dba7;
+	text-align:center;
+	color:#191919;
+	width:33%;
+	height:50%;
+	float:left;
+	position:relative;
+}
+
+
+.one:hover{
+	background-color:#dde9ca;
+	color:#c7dba7;
+}
+
+
+.two{
+	background-color:#fbb829;
+	display:block;
+	text-align:center;
+	color:#191919;
+	width:33%;
+	height:50%;
+	float:left;
+	position:relative;
+}
+
+
+.two:hover{
+	background-color:#fde2a9;
+	color:#fbb829;
+}
+
+
+.three{
+	background-color:#a6c8d8;
+	text-align:center;
+	color:#191919;
+	width:33%;
+	height:50%;
+	float:left;
+	position:relative;
+}
+
+.three:hover{
+	background-color:#e4eef3;
+	color:#a6c8d8;
+}
+
+.four{
+	background-color:#ff7f50;
+	text-align:center;
+	color:#191919;
+	width:33%;
+	height:50%;
+	float:left;
+	position:relative;
+}
+
+.four:hover{
+	background-color:#ffb296;
+	color:#ff7f50;
+}
+
+
+.lastinfo{
+	text-align:center;
+	width:33%;
+	height:50%;
+	float:left;
+	position:relative;
+}
