@@ -97,40 +97,19 @@
 
 body{
 	background-color: #79e2a8;
-<<<<<<< HEAD
-=======
 	cursor: pointer;
->>>>>>> gh-pages
 }
 
 
 
 .main {
-<<<<<<< HEAD
-	top: 150px;
-	left: 150px;
-=======
 	top: 0;
 	left: 20vw;
->>>>>>> gh-pages
 	height: auto;
 	width:auto;
 	margin: auto;
 	position: absolute;
 	z-index:3;
-<<<<<<< HEAD
-
-}
-
-
-.image {
-	width: 500px;
-	height: 500px;
-}
-
-/* Guidelines */
-
-=======
 }
 
 
@@ -147,7 +126,6 @@ body{
 
 /* Guidelines */
 /*
->>>>>>> gh-pages
 .guide1 {
 	top: 384px;
 	width: 1200px;
@@ -564,12 +542,6 @@ body{
 
 /* Letters */
 
-<<<<<<< HEAD
-.letterbox {
-	top: 250px;
-	left: 0px;
-	background-color: yellow;
-=======
 
 
 
@@ -577,7 +549,6 @@ body{
 	top: 500px;
 	left: 0px;
 	padding-top:100px;
->>>>>>> gh-pages
 	width: auto;
 	height: auto;
 	display: block;
@@ -970,30 +941,6 @@ body{
 		}
 
 
-<<<<<<< HEAD
-/*	
-	.e:hover .arme{
-		animation: stretch 5s;
-		transform-origin: left;
-	}
-
-	@keyframes stretch {
-   	 	0% {
-      		transform: scale(0, 0) 
-   		 }
-   		25% {
-      		transform: scale(3, 0)
-    	}
-    	100% {
-     		transform: scale(3, 0)
-   		 }
-   	}
-*/
-
-
-
-=======
->>>>>>> gh-pages
 	.b:hover .handboxb{
 		animation: balance .45s infinite;
 	}
@@ -1011,41 +958,6 @@ body{
 	}
    	
 
-<<<<<<< HEAD
-   	.b:hover .theha{
-		animation: downSlide 5s;
-	}
-
-
-		@keyframes downSlide {
-  		0% {
-    		transform: translateY(0);
-  		}
-
-  		25% {
-   		 transform: translateY(400%);
-  		}
-  		100% {
-   		 transform: translateY(0%);
-  		}
-	}
-
-	.b:hover .armd{
-		animation: stretch 5s down;
-	}
-
-
-	@keyframes stretch {
-  		
-  		25% {
-   		 height: 500%; 
-  		}
-  		100% {
-   		 height: 100%; 
-  		}
-	  }
-=======
->>>>>>> gh-pages
 
 
 
@@ -1233,28 +1145,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-
-/*	
-	.e:hover .arme{
-		animation: stretch 5s;
-		transform-origin: left;
-	}
-
-	@keyframes stretch {
-   	 	0% {
-      		transform: scale(0, 0) 
-   		 }
-   		25% {
-      		transform: scale(3, 0)
-    	}
-    	100% {
-     		transform: scale(3, 0)
-   		 }
-   	}
-*/
-=======
->>>>>>> gh-pages
    	.c:hover .thehandc{
 		animation: downSlide 5s;
 	}
@@ -1650,29 +1540,7 @@ body{
 		}
 
 
-<<<<<<< HEAD
-/*	
-	.e:hover .arme{
-		animation: stretch 5s;
-		transform-origin: left;
-	}
-
-	@keyframes stretch {
-   	 	0% {
-      		transform: scale(0, 0) 
-   		 }
-   		25% {
-      		transform: scale(3, 0)
-    	}
-    	100% {
-     		transform: scale(3, 0)
-   		 }
-   	}
-*/
-   	.e:hover .thehande{
-=======
 	.e:hover .thehande{
->>>>>>> gh-pages
 		animation: rightSlide 5s;
 	}
 	
@@ -2086,28 +1954,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-
-/*	
-	.e:hover .arme{
-		animation: stretch 5s;
-		transform-origin: left;
-	}
-
-	@keyframes stretch {
-   	 	0% {
-      		transform: scale(0, 0) 
-   		 }
-   		25% {
-      		transform: scale(3, 0)
-    	}
-    	100% {
-     		transform: scale(3, 0)
-   		 }
-   	}
-*/
-=======
->>>>>>> gh-pages
    	.g:hover .thehandg{
 		animation: leftSlide 5s;
 	}
@@ -2176,11 +2022,7 @@ body{
 /* hand */
 
 	.thehandh {
-<<<<<<< HEAD
-			top: -645px;
-=======
 			top: -590px;
->>>>>>> gh-pages
 			left: 15px;
 			width: 175px;
 			height: 100px;
@@ -2193,18 +2035,6 @@ body{
 			z-index:5;
 		}
 
-<<<<<<< HEAD
-		.armh {
-			top: 100px;
-			left: 100.5px;
-			width: 96px;
-			height: 100px;
-			background: #ff3537;
-			position: relative;
-			z-index:5;
-		}
-=======
->>>>>>> gh-pages
 
 		.handboxh {
 			top: -105px;
@@ -2287,28 +2117,6 @@ body{
 		}
 
 
-<<<<<<< HEAD
-/*	
-	.e:hover .arme{
-		animation: stretch 5s;
-		transform-origin: left;
-	}
-
-	@keyframes stretch {
-   	 	0% {
-      		transform: scale(0, 0) 
-   		 }
-   		25% {
-      		transform: scale(3, 0)
-    	}
-    	100% {
-     		transform: scale(3, 0)
-   		 }
-   	}
-*/
-
-=======
->>>>>>> gh-pages
 
    .handup{
 		animation: upSlide 5s ease-out;
@@ -2371,9 +2179,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-
-=======
 		/* hand */
 
 	.thehandi {
@@ -2476,7 +2281,6 @@ body{
 			transform: rotate(5deg);
 			position: relative;
 		}
->>>>>>> gh-pages
 
 
 
@@ -2547,25 +2351,6 @@ body{
 
 
 
-<<<<<<< HEAD
-		/* Letter K */
-
-
-	.k {
-			top: 515px;
-			left: 485px;
-			width: 175px;
-			height: 260px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			display: block;
-			position: absolute;
-		}
-
-		.k1 {
-=======
 /* hand */
 
 	.thehandj {
@@ -2711,7 +2496,6 @@ body{
 		}
 
 		.k1 {
->>>>>>> gh-pages
 			top: 2px;
 			left: 5px;
 			width: 43px;
@@ -2745,8 +2529,6 @@ body{
 		}
 
 
-<<<<<<< HEAD
-=======
 /* hand */
 
 	.thehandk {
@@ -2870,7 +2652,6 @@ body{
 	}
 
 
->>>>>>> gh-pages
 /* Letter L */
 
 	.l {
@@ -2907,41 +2688,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-
-/* Letter m */
-
-
-	.m{
-			top: 905px;
-			left: -25px;
-			width: 175px;
-			height: 260px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			display: block;
-			position: absolute;
-		}
-
-		.m1 {
-			top: 2px;
-			left: 10px;
-			width: 43px;
-			height: 250px;
-			background: #ffae0b;
-			border-radius: 50px 50px 50px 50px;
-			position: relative;
-		}
-
-		.m2 {
-			top: -248px;
-			left: 134px;
-			width: 43px;
-			height: 250px;
-			background: #ffae0b;
-=======
 /* hand */
 
 	.thehandl {
@@ -3117,7 +2863,6 @@ body{
 			width: 43px;
 			height: 250px;
 			background: #ffae0b;
->>>>>>> gh-pages
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -3144,8 +2889,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-=======
 
 /* hand */
 
@@ -3293,7 +3036,6 @@ body{
 
 
 
->>>>>>> gh-pages
 /* Letter n */
 
 
@@ -3342,12 +3084,6 @@ body{
 		}
 
 
-<<<<<<< HEAD
-/* Letter O */
-
-
-	.o {
-=======
 
 /* hand */
 
@@ -3479,7 +3215,6 @@ body{
 
 
 	.o {
->>>>>>> gh-pages
 			top: 905px;
 			left: 485px;
 			width: 165px;
@@ -3505,8 +3240,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -3648,7 +3381,6 @@ body{
 	}
 
 
->>>>>>> gh-pages
 /* Letter P */
 
 .p {
@@ -3701,23 +3433,6 @@ body{
 			z-index:1;
 		}
 
-<<<<<<< HEAD
-/* Letter Q */
-
-
-	.q {
-			top: 1295px;
-			left: -15px;
-			width: 165px;
-			height: 260px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-			display: block;
-			position: absolute;
-		}
-=======
 
 
 
@@ -3877,7 +3592,6 @@ body{
 			display: block;
 			position: absolute;
 		}
->>>>>>> gh-pages
 
 		 .q1 {
 			top: 0px;
@@ -3906,8 +3620,6 @@ body{
 			position: relative;
 		}
 
-<<<<<<< HEAD
-=======
 
 
 /* hand */
@@ -4034,7 +3746,6 @@ body{
 	}
    	
 
->>>>>>> gh-pages
 /* Letter R */
 
 .r {
@@ -4549,8 +4260,6 @@ body{
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
-<<<<<<< HEAD
-=======
 
 
 
@@ -5110,4 +4819,3 @@ body{
 
 
 
->>>>>>> gh-pages
