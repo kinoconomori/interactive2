@@ -1117,3 +1117,16 @@ text-shadow: 5px 5px 25px #fcd04a;
 90% { text-shadow: 10px  0 0 #000;}
 } 
 
+
+
+#button-38:hover {
+
+  transform: scale(2);
+  opacity: 0;
+
+ -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition:         all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+
+
+}
+
