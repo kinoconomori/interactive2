@@ -537,7 +537,7 @@ body{
 /* Letters */
 
 .letterbox {
-	top: 500px;
+	top: 250px;
 	left: 0px;
 	background-color: yellow;
 	width: auto;
@@ -1071,7 +1071,7 @@ body{
 
 	.thehandc {
 			top: -250px;
-			left: 116px;
+			left: 112px;
 			width: 175px;
 			height: 100px;
 			padding-left: 5px;
@@ -1109,6 +1109,10 @@ body{
 			top: 8px;
 			left: 63px;
 			background: #f9d62e;
+
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-13deg);
 			position:relative;
@@ -1120,6 +1124,10 @@ body{
 			width: 30px;
 			height: 150px;
 			background: #f9d62e;
+
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-3deg);
 			position:relative;
@@ -1132,6 +1140,10 @@ body{
 			width: 30px;
 			height: 150px;
 			background: #f9d62e;
+
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(7deg);
 			position:relative;
@@ -1144,6 +1156,10 @@ body{
 			width: 30px;
 			height: 150px;
 			background: #f9d62e;
+
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(17deg);
 			position:relative;
@@ -1902,8 +1918,8 @@ body{
 /* hand */
 
 	.thehandg {
-			top: -375px;
-			left: -25px;
+			top: -370px;
+			left: -50px;
 			width: 175px;
 			height: 100px;
 			padding-left: 5px;
@@ -1919,7 +1935,7 @@ body{
 			left: 100px;
 			width: 90px;
 			height: 43px;
-			background: #f9d62e;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -1941,7 +1957,7 @@ body{
 			border-top: solid 3px #79e2a8;
 			border-left: solid 3px #79e2a8;
 			border-right: solid 3px #79e2a8;
-			background: #f9d62e;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-13deg);
 			position:relative;
@@ -1952,7 +1968,7 @@ body{
 			left: 98px;
 			width: 30px;
 			height: 150px;
-			background: #f9d62e;
+			background: #ffae0b;
 			border-top: solid 3px #79e2a8;
 			border-left: solid 3px #79e2a8;
 			border-right: solid 3px #79e2a8;
@@ -1967,7 +1983,7 @@ body{
 			left: 132px;
 			width: 30px;
 			height: 150px;
-			background: #f9d62e;
+			background: #ffae0b;
 			border-top: solid 3px #79e2a8;
 			border-left: solid 3px #79e2a8;
 			border-right: solid 3px #79e2a8;
@@ -1985,7 +2001,7 @@ body{
 			border-top: solid 3px #79e2a8;
 			border-left: solid 3px #79e2a8;
 			border-right: solid 3px #79e2a8;
-			background: #f9d62e;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(17deg);
 			position:relative;
@@ -1997,7 +2013,11 @@ body{
 			left: 40px;
 			width: 35px;
 			height: 115px;
-			background: #f9d62e;
+			background: #ffae0b;
+			
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-50deg);
 			position:relative;
@@ -2009,7 +2029,7 @@ body{
 			left: 64px;
 			width: 118px;
 			height: 115px;
-			background: #f9d62e;
+			background: #ffae0b;
 			border-radius: 15px 30px 60px 55px;
 			transform: rotate(5deg);
 			position: relative;
@@ -2120,7 +2140,7 @@ body{
 			left: 100.5px;
 			width: 96px;
 			height: 100px;
-			background: yellow;
+			background: #ff3537;
 			position: relative;
 			z-index:5;
 		}

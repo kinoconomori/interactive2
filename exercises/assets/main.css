@@ -962,32 +962,158 @@ text-shadow: 5px 5px 25px #fcd04a;
 }
 
 
-/* button 32*/
-#button-32:hover{
-   animation: roll-in-blurred .7s 
-   cubic-bezier(0.230, 1.000, 0.320, 1.000);
-   background-color: #fcd04a;
-	      
+.button-32{
+    color: #ffffff;
+    background: #e04e39;
+    width: 250px;
+    height: 100px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    margin: 12px auto;
+    position: relative;
+    overflow: hidden;
+    padding-top:45px;
+    align: center;
 }
 
 
-@keyframes roll-in-blurred {
-  0% {
-    transform: translateX(-1000px) rotate(-720deg);
-    transform: translateX(-1000px) rotate(-720deg);
-    filter: blur(50px);
-    filter: blur(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0) rotate(0deg);
-    transform: translateX(0) rotate(0deg);
-    filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
+.button-32:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    display: inline-block;
+    background: #ffffff;
+}
+
+.button-32:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    display: inline-block;
+    background: #ffffff;
+
+}
+
+.button-33{
+    color: #ffffff;
+    background: #e04e39;
+    width: 250px;
+    height: 100px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    margin: 12px auto;
+    position: relative;
+    overflow: hidden;
+    padding-top:45px;
+    align: center;
+}
+
+
+.button-33:before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    display: inline-block;
+    background: #ffffff;
+}
+
+.button-33:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    display: inline-block;
+    background: #ffffff;
+
 }
 
 
 
+#button-35:hover{
+   -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+#button-36:hover{
+    width:100%;
+    height:100%;
+}
+
+
+
+#button-37:hover{
+  -webkit-animation: run 1s 1 linear;
+  animation: run 1s 1 linear;
+  text-shadow: 0px  0 0 #000;
+
+}
+
+@-webkit-keyframes run {
+  0%{text-shadow: 0px  0 0 #fff;}
+
+30%{letter-spacing:60px;}
+  50%{text-shadow: 400px 0 0 rgba(0, 0, 0, 0);}
+51%{text-shadow: -400px 0 0 rgba(0, 0, 0, 0); letter-spacing:30px; }
+85% { letter-spacing:1px;}
+90% { text-shadow: 10px  0 0 #000;}
+}/*safari and chrome*/
+
+
+@keyframes run {
+30%{letter-spacing:60px;}
+  50%{text-shadow: 400px 0 0 rgba(0, 0, 0, 0);}
+51%{text-shadow: -400px 0 0 rgba(0, 0, 0, 0); letter-spacing:30px; }
+85% { letter-spacing:1px;}
+90% { text-shadow: 10px  0 0 #000;}
+} 
 

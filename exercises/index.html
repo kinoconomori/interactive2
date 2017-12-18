@@ -5,8 +5,31 @@
     <title>exercise: 50</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
-    <script type="text/javascript" src="assets/main.js">
-</script>
+    <script type="text/javascript" src="assets/main.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js">
+    </script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+  </script>
+
+  <script>
+  $( function() {
+    $( ".button-32" ).draggable();
+  } );
+  </script>
+  
+  <script>
+  $( function() {
+    $( ".button-33" ).resizable();
+  } );
+  </script>
+  <script>
+  $(function() {  
+$('.button-33').click(function(){
+    $(this).css('background', '#fcd04a');
+
+  });
+});
+  </script>
 </head>
 
 <body>
@@ -137,20 +160,23 @@
     thirty <br>one
     </div>
     <!-- item 32 -->
-    <div class="item" id="button-32">
+    <div class="button-32">
     thirty<br>two
     </div>
     <!-- item 33 -->
-    <div class="item" id="button-33">
+    <div class="button-33">
     thirty<br>three
     </div>
     <!-- item 34 -->
+    <audio id="play" src="assets/horn.mp3"></audio>
+    <a class="btn" onclick="playSound()">
     <div class="item" id="button-34">
     thirty<br>four
-    </div>
+    </div></a>
     <!-- item 35 -->
     <div class="item" id="button-35">
     thirty<br>five
+    
     </div>
     <!-- item 36 -->
     <div class="item" id="button-36">
