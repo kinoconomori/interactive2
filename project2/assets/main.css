@@ -97,18 +97,28 @@
 
 body{
 	background-color: #79e2a8;
+<<<<<<< HEAD
+=======
+	cursor: pointer;
+>>>>>>> gh-pages
 }
 
 
 
 .main {
+<<<<<<< HEAD
 	top: 150px;
 	left: 150px;
+=======
+	top: 0;
+	left: 20vw;
+>>>>>>> gh-pages
 	height: auto;
 	width:auto;
 	margin: auto;
 	position: absolute;
 	z-index:3;
+<<<<<<< HEAD
 
 }
 
@@ -120,6 +130,24 @@ body{
 
 /* Guidelines */
 
+=======
+}
+
+
+.title {
+	top: 10px;
+	left: 0px;
+	border-bottom: #ffffff dashed 10px;
+	width: 1000px;
+	height: 1000px;
+	position: relative;
+}
+
+
+
+/* Guidelines */
+/*
+>>>>>>> gh-pages
 .guide1 {
 	top: 384px;
 	width: 1200px;
@@ -536,10 +564,20 @@ body{
 
 /* Letters */
 
+<<<<<<< HEAD
 .letterbox {
 	top: 250px;
 	left: 0px;
 	background-color: yellow;
+=======
+
+
+
+.letterbox {
+	top: 500px;
+	left: 0px;
+	padding-top:100px;
+>>>>>>> gh-pages
 	width: auto;
 	height: auto;
 	display: block;
@@ -932,6 +970,7 @@ body{
 		}
 
 
+<<<<<<< HEAD
 /*	
 	.e:hover .arme{
 		animation: stretch 5s;
@@ -953,6 +992,8 @@ body{
 
 
 
+=======
+>>>>>>> gh-pages
 	.b:hover .handboxb{
 		animation: balance .45s infinite;
 	}
@@ -970,6 +1011,7 @@ body{
 	}
    	
 
+<<<<<<< HEAD
    	.b:hover .theha{
 		animation: downSlide 5s;
 	}
@@ -1002,6 +1044,8 @@ body{
    		 height: 100%; 
   		}
 	  }
+=======
+>>>>>>> gh-pages
 
 
 
@@ -1189,6 +1233,7 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
 
 /*	
 	.e:hover .arme{
@@ -1208,6 +1253,8 @@ body{
    		 }
    	}
 */
+=======
+>>>>>>> gh-pages
    	.c:hover .thehandc{
 		animation: downSlide 5s;
 	}
@@ -1603,6 +1650,7 @@ body{
 		}
 
 
+<<<<<<< HEAD
 /*	
 	.e:hover .arme{
 		animation: stretch 5s;
@@ -1622,6 +1670,9 @@ body{
    	}
 */
    	.e:hover .thehande{
+=======
+	.e:hover .thehande{
+>>>>>>> gh-pages
 		animation: rightSlide 5s;
 	}
 	
@@ -2035,6 +2086,7 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
 
 /*	
 	.e:hover .arme{
@@ -2054,6 +2106,8 @@ body{
    		 }
    	}
 */
+=======
+>>>>>>> gh-pages
    	.g:hover .thehandg{
 		animation: leftSlide 5s;
 	}
@@ -2122,7 +2176,11 @@ body{
 /* hand */
 
 	.thehandh {
+<<<<<<< HEAD
 			top: -645px;
+=======
+			top: -590px;
+>>>>>>> gh-pages
 			left: 15px;
 			width: 175px;
 			height: 100px;
@@ -2135,6 +2193,7 @@ body{
 			z-index:5;
 		}
 
+<<<<<<< HEAD
 		.armh {
 			top: 100px;
 			left: 100.5px;
@@ -2144,6 +2203,8 @@ body{
 			position: relative;
 			z-index:5;
 		}
+=======
+>>>>>>> gh-pages
 
 		.handboxh {
 			top: -105px;
@@ -2226,6 +2287,7 @@ body{
 		}
 
 
+<<<<<<< HEAD
 /*	
 	.e:hover .arme{
 		animation: stretch 5s;
@@ -2245,6 +2307,8 @@ body{
    	}
 */
 
+=======
+>>>>>>> gh-pages
 
    .handup{
 		animation: upSlide 5s ease-out;
@@ -2307,7 +2371,112 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
 
+=======
+		/* hand */
+
+	.thehandi {
+			top: -185px;
+			left: 58px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.i:hover .thehandi{
+			animation: rota 3s infinite;
+			}
+		@keyframes rota{
+ 		 to {transform: rotate(360deg);}
+		}
+
+
+	
+		.handboxi {
+			top: -185px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(0deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1i {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2i {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3i {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4i {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbi {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingi {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+>>>>>>> gh-pages
 
 
 
@@ -2378,6 +2547,7 @@ body{
 
 
 
+<<<<<<< HEAD
 		/* Letter K */
 
 
@@ -2395,6 +2565,153 @@ body{
 		}
 
 		.k1 {
+=======
+/* hand */
+
+	.thehandj {
+			top: -450px;
+			left: 57px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.handboxj {
+			top: -185px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(0deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1j {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2j {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3j {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4j {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbj {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingj {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+.j:hover .thehandj{
+		animation: upSlidetwo 5s;
+	}
+
+	.j:hover .armj{
+		animation: stretchtwo 5s;
+	}
+
+	@keyframes upSlidetwo {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(-70%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+
+  		}
+	}
+
+	@keyframes stretchtwo {
+  		
+  		25% {
+   		 height: 500%; 
+  		}
+  		100% {
+   		 height: 100%; 
+  		}
+	  }
+
+
+
+
+		/* Letter K */
+
+
+	.k {
+			top: 515px;
+			left: 485px;
+			width: 175px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			position: absolute;
+		}
+
+		.k1 {
+>>>>>>> gh-pages
 			top: 2px;
 			left: 5px;
 			width: 43px;
@@ -2428,6 +2745,132 @@ body{
 		}
 
 
+<<<<<<< HEAD
+=======
+/* hand */
+
+	.thehandk {
+			top:  -375px;
+			left: 45px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			transform: rotate(-45deg);
+		}
+
+		.armk {
+			top: 35px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxk {
+			top: -50px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1k {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2k {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3k {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4k {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbk {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingk {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+.k:hover .thehandk{
+		animation: upSlidetwo 2s;
+	}
+
+	@keyframes upSlidetwo {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(-100%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+
+  		}
+	}
+
+
+>>>>>>> gh-pages
 /* Letter L */
 
 	.l {
@@ -2464,6 +2907,7 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
 
 /* Letter m */
 
@@ -2497,6 +2941,183 @@ body{
 			width: 43px;
 			height: 250px;
 			background: #ffae0b;
+=======
+/* hand */
+
+	.thehandl {
+			top: -123px;
+			left: 50px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+		}
+
+		.arml {
+			top: 35px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxl {
+			top: -50px;
+			left: 25px;
+			width: 200px;
+			height: 200px;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1l {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2l {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3l {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4l {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbl {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingl {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+   	.l:hover .thehandl{
+		animation: rightSlidel 5s;
+
+	}
+	
+	.l:hover .arml{
+		animation: stretchl 5s;
+	}
+
+		@keyframes rightSlidel {
+  		0% {
+    		transform: translateX(0);
+  		}
+
+  		25% {
+   		 transform: translateX(-400%);
+  		}
+  		100% {
+   		 transform: translateX(0%);
+  		}
+	}
+
+	@keyframes stretchl {
+  		
+  		25% {
+   		 width: 400%; 
+  		}
+  		100% {
+   		 width: 15%; 
+  		}
+	  }
+
+
+
+
+
+
+
+
+/* Letter m */
+
+
+	.m{
+			top: 905px;
+			left: -25px;
+			width: 175px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			position: absolute;
+		}
+
+		.m1 {
+			top: 2px;
+			left: 10px;
+			width: 43px;
+			height: 250px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.m2 {
+			top: -248px;
+			left: 134px;
+			width: 43px;
+			height: 250px;
+			background: #ffae0b;
+>>>>>>> gh-pages
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -2523,6 +3144,156 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
+=======
+
+/* hand */
+
+	.thehandm {
+			top: -225px;
+			left: 15px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.armm {
+			top: -200px;
+			left: -10px;
+			width: 43px;
+			height: 90px;
+			background:  #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+			z-index:5;
+		}
+
+		.handboxm {
+			top: -185px;
+			left: -72px;
+			width: 200;
+			height: 200;
+			transform: rotate(180deg) scale(.45, .45);
+			position: absolute;
+			z-index:5;
+		}
+
+		.finger1m {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background:  #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2m {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background:  #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3m {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background:  #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4m {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background:  #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbm {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background:  #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingm {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background:  #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+
+.m:hover .thehandm{
+  animation: wobble 1s infinite;
+}
+
+@keyframes wobble {
+  from {
+    transform: none;
+  }
+
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+
+
+
+
+>>>>>>> gh-pages
 /* Letter n */
 
 
@@ -2571,10 +3342,144 @@ body{
 		}
 
 
+<<<<<<< HEAD
 /* Letter O */
 
 
 	.o {
+=======
+
+/* hand */
+
+	.thehandn {
+			top: -475px;
+			left: 97px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			transform: rotate(360deg);
+			z-index:5;
+		}
+
+		.armn {
+			top: -175px;
+			left: -10px;
+			width: 43px;
+			height: 60px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+			z-index:5;
+		}
+
+		.handboxn {
+			top: -185px;
+			left: -72px;
+			width: 200px;
+			height: 200px;
+			transform: scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1n {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2n {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3n {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4n {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbn {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingn {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+   	.n:hover .thehandn{
+		animation: upSlide 2s;
+	}
+
+
+		@keyframes upSlide {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(-400%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+  		}
+	}
+
+
+
+/* Letter O */
+
+
+	.o {
+>>>>>>> gh-pages
 			top: 905px;
 			left: 485px;
 			width: 165px;
@@ -2600,6 +3505,150 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
+=======
+
+
+
+
+/* hand */
+
+	.thehando {
+			top: -25px;
+			left: 117px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			transform: rotate(360deg);
+			z-index:5;
+		}
+
+		.armo {
+			top: -175px;
+			left: -10px;
+			width: 43px;
+			height: 60px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+			z-index:5;
+		}
+
+		.handboxo {
+			top: -185px;
+			left: -72px;
+			width: 200;
+			height: 200;
+			transform: rotate(180deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1o {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2o {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3o {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4o {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbo {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingo {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+   	.o:hover .thehando{
+		animation: downSlide 5s;
+	}
+
+
+		@keyframes downSlide {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(400%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+  		}
+	}
+
+
+>>>>>>> gh-pages
 /* Letter P */
 
 .p {
@@ -2652,6 +3701,7 @@ body{
 			z-index:1;
 		}
 
+<<<<<<< HEAD
 /* Letter Q */
 
 
@@ -2667,6 +3717,167 @@ body{
 			display: block;
 			position: absolute;
 		}
+=======
+
+
+
+
+		/* hand */
+
+	.thehandp {
+			top: -270px;
+			left: 59px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			transform: rotate(360deg);
+			z-index:5;
+		}
+
+		.armp {
+			top: -175px;
+			left: -10px;
+			width: 43px;
+			height: 60px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+			z-index:5;
+		}
+
+		.handboxp {
+			top: -185px;
+			left: -72px;
+			width: 200;
+			height: 200;
+			transform: rotate(180deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1p {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2p {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3p {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4p {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbp {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingp {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+	.p:hover .thehandp{
+		animation: downSlide 3s;
+	}
+
+	.p:hover .armp{
+		animation: stretchP 3s;
+	}
+
+	@keyframes downSlide {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(400%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+
+  		}
+	}
+
+	@keyframes stretchP {
+  		
+  		25% {
+   		 height: 500%; 
+  		}
+  		100% {
+   		 height: 100%; 
+  		}
+	  }
+
+
+
+/* Letter Q */
+
+
+	.q {
+			top: 1295px;
+			left: -15px;
+			width: 165px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			position: absolute;
+		}
+>>>>>>> gh-pages
 
 		 .q1 {
 			top: 0px;
@@ -2695,6 +3906,135 @@ body{
 			position: relative;
 		}
 
+<<<<<<< HEAD
+=======
+
+
+/* hand */
+
+	.thehandq {
+			top:  -70px;
+			left: 40px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:6;
+			transform: rotate(62.5deg);
+		}
+
+		.armq {
+			top: 35px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxq {
+			top: -50px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1q {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2q {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3q {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4q {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbq {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingq {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+
+	.q:hover .handboxq{
+		animation: balance .45s infinite;
+	}
+
+
+
+	@keyframes balance {
+		0%, 100% {
+		transform: rotate(0deg) scale(2.5, 2.5);
+		}
+	
+		30%, 60% {
+		transform: rotate(45deg) scale(2.5, 2.5);
+		}
+	}
+   	
+
+>>>>>>> gh-pages
 /* Letter R */
 
 .r {
@@ -3209,3 +4549,565 @@ body{
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+		/* GIVE ME FIVE
+
+
+
+/* Letter G */
+
+
+	.g-2 {
+			top: 125px;
+			left: 100px;
+			width: 165px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			position: absolute;
+			transform: scale(1.35, 1.35);
+		}
+
+
+		.g1-2 {
+			top: 2px;
+			left: 5px;
+			width: 65px;
+			height: 165px;
+			background: #79e2a8;
+			border-style: solid;
+			border-color: #ffae0b;
+			border-width: 43px;
+			border-radius: 75px 75px 75px 75px;
+			position: relative;
+		}
+
+		.g2-2 {
+			top: -170px;
+			left: 100px;
+			width: 75px;
+			height: 100px;
+			background-color: #79e2a8;
+			position: relative;
+		}
+
+		.g3-2 {
+			top: -292px;
+			left: 113px;
+			width: 43px;
+			height: 50px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+		.g4-2 {
+			top: -250px;
+			left: 113px;
+			width: 43px;
+			height: 50px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.g5-2 {
+			top: -310px;
+			left: 70px;
+			width: 85px;
+			height: 43px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+/* hand */
+
+	.thehandg-2 {
+			top: -370px;
+			left: -50px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.armg-2 {
+			top: 10px;
+			left: 100px;
+			width: 90px;
+			height: 43px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxg-2 {
+			top: -50px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transform: rotate(-90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1g-2 {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2g-2 {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3g-2 {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4g-2 {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbg-2 {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ffae0b;
+			
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingg-2 {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+   	.g-2:hover .thehandg-2{
+		animation: leftSlide 5s;
+	}
+
+
+		@keyframes leftSlide {
+  		0% {
+    		transform: translateX(0);
+  		}
+
+  		25% {
+   		 transform: translateX(-400%);
+  		}
+  		100% {
+   		 transform: translateX(0%);
+  		}
+	}
+
+
+
+	/* Letter I */
+
+
+	.i-2 {
+			top: 125px;
+			left: 350px;
+			width: 55px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			transform: scale(1.35, 1.35);
+			position: absolute;
+		}
+
+		.i1-2 {
+			top: 2px;
+			left: 5px;
+			width: 43px;
+			height: 250px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		/* hand */
+
+	.thehandi-2 {
+			top: -185px;
+			left: 58px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.i-2:hover .thehandi-2{
+			animation: rota 3s infinite;
+			}
+		@keyframes rota{
+ 		 to {transform: rotate(360deg);}
+		}
+
+
+	
+		.handboxi-2 {
+			top: -185px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(0deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1i-2 {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2i-2 {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3i-2 {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4i-2 {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbi-2 {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingi-2 {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+
+
+
+
+
+
+/* Letter E */
+
+
+	.e-2 {
+			top: -20px;
+			left: 800px;
+			width: 150px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			position: absolute;
+			transform: scale(1.30, 1.30);
+		}
+
+		.e1-2 {
+			top: 1px;
+			left: 8px;
+			width: 43px;
+			height: 250px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+		 .e2-2 {
+			top: -250px;
+			left: 11px;
+			width: 132px;
+			height: 43px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+		.e3-2 {
+			top: -85px;
+			left: 11px;
+			width: 132px;
+			height: 43px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+		.e4-2 {
+			top: -231px;
+			left: 11px;
+			width: 132px;
+			height: 43px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+	/* hand */
+
+	.thehande-2 {
+			top: 70px;
+			left: 75px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+
+		}
+
+		.arme-2 {
+			top: 35px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxe-2 {
+			top: -50px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1e-2 {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2e-2 {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3e-2 {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4e-2 {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbe-2 {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthinge-2 {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+	.e-2:hover .thehande-2{
+		animation: rightSlide 5s;
+	}
+	
+	.e-2:hover .arme-2{
+		animation: stretch 5s;
+	}
+
+		@keyframes rightSlide {
+  		0% {
+    		transform: translateX(0);
+  		}
+
+  		25% {
+   		 transform: translateX(400%);
+  		}
+  		100% {
+   		 transform: translateX(0%);
+  		}
+	}
+
+	@keyframes stretch {
+  		
+  		25% {
+   		 width: 500%; 
+  		}
+  		100% {
+   		 width: 100%; 
+  		}
+	  }
+
+
+
+>>>>>>> gh-pages
