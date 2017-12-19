@@ -103,8 +103,8 @@ body{
 
 
 .main {
-	top: 0;
-	left: 20vw;
+	top: 0px;
+	left: 15vw;
 	height: auto;
 	width:auto;
 	margin: auto;
@@ -114,7 +114,7 @@ body{
 
 
 .title {
-	top: 10px;
+	top: 0px;
 	left: 0px;
 	border-bottom: #ffffff dashed 10px;
 	width: 1000px;
@@ -1564,10 +1564,10 @@ body{
 	@keyframes stretch {
   		
   		25% {
-   		 width: 500%; 
+   		 height: 500%; 
   		}
   		100% {
-   		 width: 100%; 
+   		 height: 100%; 
   		}
 	  }
 
@@ -1725,26 +1725,7 @@ body{
 			position: relative;
 		}
 
-
-/*	
-	.e:hover .arme{
-		animation: stretch 5s;
-		transform-origin: left;
-	}
-
-	@keyframes stretch {
-   	 	0% {
-      		transform: scale(0, 0) 
-   		 }
-   		25% {
-      		transform: scale(3, 0)
-    	}
-    	100% {
-     		transform: scale(3, 0)
-   		 }
-   	}
-*/
-   	.f:hover .thehandf{
+	.f:hover .thehandf{
 		animation: rightSlide 5s;
 	}
 
@@ -2022,7 +2003,7 @@ body{
 /* hand */
 
 	.thehandh {
-			top: -590px;
+			top: -570px;
 			left: 15px;
 			width: 175px;
 			height: 100px;
@@ -2037,11 +2018,21 @@ body{
 
 
 		.handboxh {
-			top: -105px;
+			top: -150px;
 			left: 25px;
 			width: 200;
 			height: 200;
 			transition: all 5s ease;
+			position: relative;
+		}
+
+	.armh {
+			top: 35px;
+			left: 100px;
+			width: 43px;
+			height: 90px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
 
@@ -3102,8 +3093,8 @@ body{
 		}
 
 		.armn {
-			top: -175px;
-			left: -10px;
+			top: -80px;
+			left: 12px;
 			width: 43px;
 			height: 60px;
 			background: #ff3537;
@@ -3208,6 +3199,12 @@ body{
    		 transform: translateY(0%);
   		}
 	}
+
+
+.armn:hover{
+		animation: stretch 5s;
+	}
+
 
 
 
@@ -3811,6 +3808,114 @@ body{
 		}
 
 
+
+
+		/* hand */
+
+	.thehandr {
+			top: -375px;
+			left: 250px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.r:hover .thehandr{
+			animation: rota 3s infinite;
+			}
+		@keyframes rota{
+ 		 to {transform: rotate(360deg);}
+		}
+
+
+	
+		.handboxr {
+			top: -185px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(140deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1r {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2r {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3r {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4r {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbr {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingr {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+
+
 /* Letter S */
 
 
@@ -3822,7 +3927,8 @@ body{
 			padding-left: 10px;
 			padding-right: 10px;
 			padding-top: 10px;
-			padding-bottom: 10px;			display: block;
+			padding-bottom: 10px;			
+			display: block;
 			position: absolute;
 		}
 
@@ -3898,6 +4004,145 @@ body{
 		}
 
 
+/* hand */
+
+	.thehands {
+			top: -625px;
+			left: 118px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;0
+			transform: rotate(360deg);
+			z-index:5;
+		}
+
+		.arms {
+			top: 0px;
+			left: -10px;
+			width: 43px;
+			height: 60px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+			z-index:5;
+		}
+
+		.handboxs {
+			top: 0px;
+			left: -72px;
+			width: 200;
+			height: 200;
+			transform: rotate(180deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1s {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ffae0b;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2s {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3s {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4s {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-top: solid 3px #79e2a8;
+			border-left: solid 3px #79e2a8;
+			border-right: solid 3px #79e2a8;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbs {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthings {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+   	.s:hover .thehands{
+		animation: downSlide 5s;
+	}
+
+
+		@keyframes downSlide {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(400%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+  		}
+	}
+
+
+
+
 /* Letter T */
 
 .t {
@@ -3933,6 +4178,122 @@ body{
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
+
+
+
+
+/* hand */
+
+	.thehandt {
+			top: -404px;
+			left: 50px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			transform: rotate(-90deg); 
+			z-index:5;
+		}
+
+		.armt {
+			top: 10px;
+			left: -35px;
+			width: 90px;
+			height: 43px;
+			background: #ff3537;
+			transform: rotate(-90deg); 
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxt {
+			top: 0px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transform: scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1t {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2t {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3t {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4t {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbt {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingt {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+   	.t:hover .thehandt{
+		animation: leftSlide 5s;
+	}
+
+
+		
 
 /* Letter U */
 
@@ -4000,6 +4361,124 @@ body{
 		
 
 
+
+/* hand */
+
+	.thehandu {
+			top: -725px;
+			left: 58px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.u:hover .thehandu{
+		animation: upSlidetwo 5s;
+	}
+
+	@keyframes upSlidetwo {
+  		0% {
+    		transform: translateY(0);
+  		}
+
+  		25% {
+   		 transform: translateY(-100%);
+  		}
+  		100% {
+   		 transform: translateY(0%);
+
+  		}
+	}
+
+	
+		.handboxu {
+			top: 0px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(0deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1u {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2u {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3u {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4u {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbu {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingu {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+
+
+
 /* Letter V */
 
 
@@ -4021,7 +4500,7 @@ body{
 			left: -76px;
 			width: 260px;
 			height: 43px;
-			background-color: #ff3537;
+			background-color: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(76deg);
 			position: relative;
@@ -4033,12 +4512,125 @@ body{
 			left: -23px;
 			width: 260px;
 			height: 43px;
-			background-color: #ff3537;
+			background-color: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-76deg);
 			position: relative;
 			z-index:4;
 		}
+
+
+
+/* hand */
+
+	.thehandv {
+			top: -140px;
+			left: -10px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			transform: rotate(-70deg);
+			z-index:5;
+		}
+
+		.armv {
+			top: 0px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxv {
+			top: 0px;
+			left: 25px;
+			width: 200px;
+			height: 200px;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1v {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2v {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3v {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4v {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbv {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingv {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+	.v:hover .thehandv{
+		animation: rightSlide 5s;
+	}
+
+
 
 
 
@@ -4064,7 +4656,7 @@ body{
 			left: 10px;
 			width: 43px;
 			height: 250px;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4074,7 +4666,7 @@ body{
 			left: 134px;
 			width: 43px;
 			height: 250px;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4084,7 +4676,7 @@ body{
 			left: -25px;
 			width: 175px;
 			height: 43px;
-			background-color: #ffae0b;
+			background-color: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(62.5deg);
 			position: relative;
@@ -4095,11 +4687,126 @@ body{
 			left: 37px;
 			width: 175px;
 			height: 43px;
-			background-color: #ffae0b;
+			background-color: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-62.5deg);
 			position: relative;
 		}
+
+
+	/* hand */
+
+	.thehandw {
+			top: -410px;
+			left: 80px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.w:hover .thehandw{
+		animation: downSlide 3s;
+	}
+
+	.w:hover .armw{
+		animation: stretchP 3s;
+	}
+		.handboxw {
+			top: 0px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(180deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.armw {
+			top: -175px;
+			left: -10px;
+			width: 43px;
+			height: 60px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+			z-index:5;
+		}
+
+
+		.finger1w {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2w {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3w {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4w {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbw {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingw {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+	
 
 /* Letter X */
 
@@ -4163,7 +4870,7 @@ body{
 			left: -57px;
 			width: 276px;
 			height: 43px;
-			background-color: #ff3537;
+			background-color: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(62.5deg);
 			position: relative;
@@ -4174,7 +4881,7 @@ body{
 			left: -57px;
 			width: 276px;
 			height: 43px;
-			background-color: #ff3537;
+			background-color: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-62.5deg);
 			position: relative;
@@ -4208,7 +4915,7 @@ body{
 			left: 60px;
 			width: 43px;
 			height: 165px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 0px 0px 50px 50px;
 			position: relative;
 			z-index:3;
@@ -4235,7 +4942,7 @@ body{
 			left: -57px;
 			width: 276px;
 			height: 43px;
-			background-color: #ffae0b;
+			background-color: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-62.5deg);
 			position: relative;
@@ -4246,7 +4953,7 @@ body{
 			left: 6px;
 			width: 150px;
 			height: 43px;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4256,7 +4963,7 @@ body{
 			left: 6px;
 			width: 150px;
 			height: 43px;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4273,12 +4980,13 @@ body{
 
 
 
-/* Letter G */
+
+/* Letter H */
 
 
-	.g-2 {
+	.h-2 {
 			top: 125px;
-			left: 100px;
+			left: 300px;
 			width: 165px;
 			height: 260px;
 			padding-left: 10px;
@@ -4286,69 +4994,43 @@ body{
 			padding-top: 10px;
 			padding-bottom: 10px;
 			display: block;
+			transform: scale(1.1, 1.1);
 			position: absolute;
-			transform: scale(1.35, 1.35);
 		}
 
-
-		.g1-2 {
+		.h1-2 {
 			top: 2px;
 			left: 5px;
-			width: 65px;
-			height: 165px;
-			background: #79e2a8;
-			border-style: solid;
-			border-color: #ffae0b;
-			border-width: 43px;
-			border-radius: 75px 75px 75px 75px;
-			position: relative;
-		}
-
-		.g2-2 {
-			top: -170px;
-			left: 100px;
-			width: 75px;
-			height: 100px;
-			background-color: #79e2a8;
-			position: relative;
-		}
-
-		.g3-2 {
-			top: -292px;
-			left: 113px;
 			width: 43px;
-			height: 50px;
-			background: #ffae0b;
+			height: 250px;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
 
-
-		.g4-2 {
-			top: -250px;
-			left: 113px;
+		.h2-2 {
+			top: -248px;
+			left: 114px;
 			width: 43px;
-			height: 50px;
-			background: #ffae0b;
+			height: 250px;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
 
-		.g5-2 {
-			top: -310px;
-			left: 70px;
-			width: 85px;
+		.h3-2 {
+			top: -398px;
+			left: 12px;
+			width: 132px;
 			height: 43px;
-			background: #ffae0b;
-			border-radius: 50px 50px 50px 50px;
+			background-color: #ff3537;
 			position: relative;
 		}
-
 /* hand */
 
-	.thehandg-2 {
-			top: -370px;
-			left: -50px;
+	.thehandh-2 {
+			top: -590px;
+			left: 15px;
 			width: 175px;
 			height: 100px;
 			padding-left: 5px;
@@ -4356,130 +5038,104 @@ body{
 			padding-top: 5px;
 			padding-bottom: 5px;
 			position: relative;
+			transform: scale(.45, .45); 
 			z-index:5;
 		}
 
-		.armg-2 {
-			top: 10px;
+
+	.handboxh-2 {
+			top: -150px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transition: all 5s ease;
+			position: relative;
+		}
+
+	.armh-2 {
+			top: 35px;
 			left: 100px;
-			width: 90px;
-			height: 43px;
-			background: #ffae0b;
+			width: 43px;
+			height: 90px;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
 
-		.handboxg-2 {
-			top: -50px;
-			left: 25px;
-			width: 200;
-			height: 200;
-			transform: rotate(-90deg) scale(.45, .45);
-			position: absolute;
-		}
 
-		.finger1g-2 {
+		.finger1h-2 {
 			width: 30px;
 			height: 150px;
 			top: 8px;
 			left: 63px;
-			border-top: solid 3px #79e2a8;
-			border-left: solid 3px #79e2a8;
-			border-right: solid 3px #79e2a8;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-13deg);
 			position:relative;
 		}
 
-		.finger2g-2 {
+		.finger2h-2 {
 			top: -150px;
 			left: 98px;
 			width: 30px;
 			height: 150px;
-			background: #ffae0b;
-			border-top: solid 3px #79e2a8;
-			border-left: solid 3px #79e2a8;
-			border-right: solid 3px #79e2a8;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-3deg);
 			position:relative;
 		}
 
 
-		.finger3g-2 {
+		.finger3h-2 {
 			top: -295px;
 			left: 132px;
 			width: 30px;
 			height: 150px;
-			background: #ffae0b;
-			border-top: solid 3px #79e2a8;
-			border-left: solid 3px #79e2a8;
-			border-right: solid 3px #79e2a8;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(7deg);
 			position:relative;
 		}
 
 
-		.finger4g-2 {
+		.finger4h-2 {
 			top: -420px;
 			left: 160px;
 			width: 30px;
 			height: 150px;
-			border-top: solid 3px #79e2a8;
-			border-left: solid 3px #79e2a8;
-			border-right: solid 3px #79e2a8;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(17deg);
 			position:relative;
 		}
 
 
-		.thumbg-2 {
+		.thumbh-2 {
 			top: -506px;
 			left: 40px;
 			width: 35px;
 			height: 115px;
-			background: #ffae0b;
-			
-			border-top: solid 3px #79e2a8;
-			border-left: solid 3px #79e2a8;
-			border-right: solid 3px #79e2a8;
+			background: #ff3537;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-50deg);
 			position:relative;
 		}
 
 
-		.handthingg-2 {
+		.handthingh-2 {
 			top: -620px;
 			left: 64px;
 			width: 118px;
 			height: 115px;
-			background: #ffae0b;
+			background: #ff3537;
 			border-radius: 15px 30px 60px 55px;
 			transform: rotate(5deg);
 			position: relative;
 		}
 
-   	.g-2:hover .thehandg-2{
-		animation: leftSlide 5s;
-	}
 
-
-		@keyframes leftSlide {
-  		0% {
-    		transform: translateX(0);
-  		}
-
-  		25% {
-   		 transform: translateX(-400%);
-  		}
-  		100% {
-   		 transform: translateX(0%);
-  		}
+.h-2:hover .thehandh-2{
+			animation: upSlide 5s ease-out;
 	}
 
 
@@ -4489,7 +5145,7 @@ body{
 
 	.i-2 {
 			top: 125px;
-			left: 350px;
+			left: 550px;
 			width: 55px;
 			height: 260px;
 			padding-left: 10px;
@@ -4497,7 +5153,7 @@ body{
 			padding-top: 10px;
 			padding-bottom: 10px;
 			display: block;
-			transform: scale(1.35, 1.35);
+			transform: scale(1.1, 1.1);
 			position: absolute;
 		}
 
@@ -4615,6 +5271,450 @@ body{
 		}
 
 
+/* Letter f */
+
+
+	.f-2 {
+			top: 400px;
+			left: 50px;
+			width: 150px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			transform: scale(1.1, 1.1);
+			position: absolute;
+		}
+
+		.f1-2 {
+			top: 1px;
+			left: 8px;
+			width: 43px;
+			height: 250px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+		 .f2-2 {
+			top: -250px;
+			left: 11px;
+			width: 132px;
+			height: 43px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+		.f3-2 {
+			top: -190px;
+			left: 11px;
+			width: 132px;
+			height: 43px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+
+
+/* hand */
+
+	.thehandf-2 {
+			top: 70px;
+			left: 50px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.armf-2 {
+			top: 35px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxf-2 {
+			top: -50px;
+			left: 25px;
+			width: 200;
+			height: 200;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1f-2 {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2f-2 {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3f-2 {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4f-2 {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbf-2 {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingf-2 {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ffae0b;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+	.f-2:hover .thehandf-2{
+		animation: rightSlide 5s;
+	}
+
+/* Letter I */
+
+
+	.i-3 {
+			top: 525px;
+			left: 350px;
+			width: 55px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			transform: scale(1.1, 1.1);
+			position: absolute;
+		}
+
+		.i1-3 {
+			top: 2px;
+			left: 5px;
+			width: 43px;
+			height: 250px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		/* hand */
+
+	.thehandi-3 {
+			top: -185px;
+			left: 58px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+			z-index:5;
+		}
+
+		.i-3:hover .thehandi-3{
+			animation: rota 3s infinite;
+			}
+		@keyframes rota{
+ 		 to {transform: rotate(360deg);}
+		}
+
+
+	
+		.handboxi-3 {
+			top: -185px;
+			left: -140px;
+			width: 200;
+			height: 200;
+			transform: rotate(0deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1i-3 {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2i-3 {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3i-3 {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4i-3 {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbi-3 {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingi-3 {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #f9d62e;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+
+
+
+/* Letter V */
+
+
+	.v-2 {
+			top: 515px;
+			left: 475px;
+			width: 165px;
+			height: 260px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: block;
+			transform: scale(1.1, 1.1);
+			position: absolute;
+		}
+
+		.v1-2 {
+			top: 107px;
+			left: -76px;
+			width: 260px;
+			height: 43px;
+			background-color: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(76deg);
+			position: relative;
+			z-index:4;
+		}
+
+		.v2-2 {
+			top: 64px;
+			left: -23px;
+			width: 260px;
+			height: 43px;
+			background-color: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-76deg);
+			position: relative;
+			z-index:4;
+		}
+
+
+
+/* hand */
+
+	.thehandv-2 {
+			top: -140px;
+			left: -10px;
+			width: 175px;
+			height: 100px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			position: relative;
+
+			transform: rotate(-70deg);
+			z-index:5;
+		}
+
+		.armv-2 {
+			top: 0px;
+			left: 11px;
+			width: 90px;
+			height: 43px;
+			background: #f9d62e;
+			border-radius: 50px 50px 50px 50px;
+			position: relative;
+		}
+
+		.handboxv-2 {
+			top: 0px;
+			left: 25px;
+			width: 200px;
+			height: 200px;
+			transform: rotate(90deg) scale(.45, .45);
+			position: absolute;
+		}
+
+		.finger1v-2 {
+			width: 30px;
+			height: 150px;
+			top: 8px;
+			left: 63px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-13deg);
+			position:relative;
+		}
+
+		.finger2v-2 {
+			top: -150px;
+			left: 98px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-3deg);
+			position:relative;
+		}
+
+
+		.finger3v-2 {
+			top: -295px;
+			left: 132px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(7deg);
+			position:relative;
+		}
+
+
+		.finger4v-2 {
+			top: -420px;
+			left: 160px;
+			width: 30px;
+			height: 150px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(17deg);
+			position:relative;
+		}
+
+
+		.thumbv-2 {
+			top: -506px;
+			left: 40px;
+			width: 35px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 50px 50px 50px 50px;
+			transform: rotate(-50deg);
+			position:relative;
+		}
+
+
+		.handthingv-2 {
+			top: -620px;
+			left: 64px;
+			width: 118px;
+			height: 115px;
+			background: #ff3537;
+			border-radius: 15px 30px 60px 55px;
+			transform: rotate(5deg);
+			position: relative;
+		}
+
+	.v-2:hover .thehandv-2{
+		animation: rightSlide 5s;
+	}
 
 
 
@@ -4625,8 +5725,8 @@ body{
 
 
 	.e-2 {
-			top: -20px;
-			left: 800px;
+			top: 400px;
+			left: 700px;
 			width: 150px;
 			height: 260px;
 			padding-left: 10px;
@@ -4635,7 +5735,7 @@ body{
 			padding-bottom: 10px;
 			display: block;
 			position: absolute;
-			transform: scale(1.30, 1.30);
+			transform: scale(1.1, 1.1);
 		}
 
 		.e1-2 {
@@ -4643,7 +5743,7 @@ body{
 			left: 8px;
 			width: 43px;
 			height: 250px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4654,7 +5754,7 @@ body{
 			left: 11px;
 			width: 132px;
 			height: 43px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4665,7 +5765,7 @@ body{
 			left: 11px;
 			width: 132px;
 			height: 43px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4676,7 +5776,7 @@ body{
 			left: 11px;
 			width: 132px;
 			height: 43px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4701,7 +5801,7 @@ body{
 			left: 11px;
 			width: 90px;
 			height: 43px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			position: relative;
 		}
@@ -4709,8 +5809,8 @@ body{
 		.handboxe-2 {
 			top: -50px;
 			left: 25px;
-			width: 200;
-			height: 200;
+			width: 200px;
+			height: 200px;
 			transform: rotate(90deg) scale(.45, .45);
 			position: absolute;
 		}
@@ -4720,7 +5820,7 @@ body{
 			height: 150px;
 			top: 8px;
 			left: 63px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-13deg);
 			position:relative;
@@ -4731,7 +5831,7 @@ body{
 			left: 98px;
 			width: 30px;
 			height: 150px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-3deg);
 			position:relative;
@@ -4743,7 +5843,7 @@ body{
 			left: 132px;
 			width: 30px;
 			height: 150px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(7deg);
 			position:relative;
@@ -4755,7 +5855,7 @@ body{
 			left: 160px;
 			width: 30px;
 			height: 150px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(17deg);
 			position:relative;
@@ -4767,7 +5867,7 @@ body{
 			left: 40px;
 			width: 35px;
 			height: 115px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 50px 50px 50px 50px;
 			transform: rotate(-50deg);
 			position:relative;
@@ -4779,7 +5879,7 @@ body{
 			left: 64px;
 			width: 118px;
 			height: 115px;
-			background: #ff3537;
+			background: #ffae0b;
 			border-radius: 15px 30px 60px 55px;
 			transform: rotate(5deg);
 			position: relative;
@@ -4787,35 +5887,25 @@ body{
 
 
 	.e-2:hover .thehande-2{
-		animation: rightSlide 5s;
+		animation: leftSlide 5s;
 	}
 	
 	.e-2:hover .arme-2{
 		animation: stretch 5s;
 	}
 
-		@keyframes rightSlide {
+		@keyframes leftSlide {
   		0% {
     		transform: translateX(0);
   		}
 
   		25% {
-   		 transform: translateX(400%);
+   		 transform: translateX(-400%);
   		}
   		100% {
    		 transform: translateX(0%);
   		}
 	}
-
-	@keyframes stretch {
-  		
-  		25% {
-   		 width: 500%; 
-  		}
-  		100% {
-   		 width: 100%; 
-  		}
-	  }
 
 
 
